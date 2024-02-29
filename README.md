@@ -1,60 +1,17 @@
-# COMP1531 Major Project
 
 **✨ 🥜  UNSW Beans 🥜 ✨**
-
-## Contents
-
-[[_TOC_]]
-
 ## 0. Aims:
-
 1. Demonstrate effective use of software development tools to build full-stack end-user applications.
 2. Demonstrate effective use of static testing, dynamic testing, and user testing to validate and verify software systems.
 3. Understand key characteristics of a functioning team in terms of understanding professional expectations, maintaining healthy relationships, and managing conflict.
 4. Demonstrate an ability to analyse complex software systems in terms of their data model, state model, and more.
 5. Understand the software engineering life cycle in the context of modern and iterative software development practices in order to elicit requirements, design systems thoughtfully, and implement software correctly.
 6. Demonstrate an understanding of how to use version control, continuous integration, and deployment tooling to sustainably integrate code from multiple parties.
-
-## 1. Overview
-
-UNSW's revenue has been going down, despite the absolutely perfect MyExperience feedback.
-
-Realising the bright potential of its students to recreate existing products they pay for, UNSW has tasked me (Hayden), and my army of COMP1531 students with recreating **<a href="https://www.microsoft.com/en-au/microsoft-teams/group-chat-software">Microsoft Teams</a>**.
-
-The 22T3 cohort of COMP1531 students will build the **backend Javascript server** for a new communication platform, **UNSW Beans** (or just **Beans** for short). We plan to task future COMP6080 students to build the frontend for Beans, something you won't have to worry about.
-
-**UNSW Beans** is the questionably-named communication tool that allows you to share, communicate, and collaborate virtually on a bean-like budget.
-
-We have already specified a **common interface** for the frontend and backend to operate on. This allows both courses to go off and do their own development and testing under the assumption that both parties will comply with the common interface. This is the interface **you are required to use**.
-
-The specific capabilities that need to be built for this project are described in the interface at the bottom. This is clearly a lot of features, but not all of them are to be implemented at once.
-
-UNSW thanks you for doing your part in saving them approximately $100 per student, per year, despite making you pay for this course. 😊
-
-(For legal reasons, this is a joke).
-
-## 2. Iteration 0: Getting Started
-
-Now complete!
-
-## 3. Iteration 1: Basic Functionality and Tests
-
-Now complete!
-
-## 4. Iteration 2: Building a Web Server
-
-Now complete!
-
+## 1. Iteration 0: Getting Started
+## 2. Iteration 1: Basic Functionality and Tests
+## 3. Iteration 2: Building a Web Server
 ## 5. Iteration 3: Completing the Lifecycle
-
-Iteration 3 builds off all of the work you've completed in iteration 2.
-
-If you haven't completed the implementation of iteration 2, you must complete it as part of this iteration. The automarking for iteration 3 will test on a fully completed interface.
-
 ### 5.1. Task
-
-In this iteration, you are expected to:
-
 1. Make adjustments to your existing code and tests as per any feedback given by your tutor for iteration 2. In particular, you should take time to ensure that your code is well-styled and complies with good software writing practices and software and test design principles discussed in lectures.
 
 2. Implement and test the HTTP Express server according to the entire interface provided in the specification, including features that were added in iteration 3.
@@ -1450,48 +1407,6 @@ For any given user, if they have yet to upload an image, there should be a site-
 
 Note: This is most likely the most challenging part of the project, so don't get lost in this. We would strongly recommend most teams complete this capability *last*.
 
-## 7. Due Dates and Weightings
-
-|Iteration|Due date                              |Demonstration to tutor(s)      |Assessment weighting of project (%)|
-|---------|--------------------------------------|-------------------------------|-----------------------------------|
-|   0     |10pm Friday 23rd September (**week 2**)    |No demonstration               |5%                                 |
-|   1     |10pm Friday 7th October  (**week 4**)   |In YOUR **week 5** laboratory  |30%                                |
-|   2     |10pm Friday 28th October (**week 7**)    |In YOUR **week 8** laboratory  |35%                                |
-|   3     |10pm Friday 18th November (**week 10**)  |No demonstration               |30%                               |
-
-### 7.1. Submission & Late Penalties
-
-There is no late penalty, as we do not accept late submissions. You will be assessed on the most recent version of your work at the due date and time.
-
-To submit your work, open up a CSE terminal and run:
-
-` $ 1531 submit [iteration] [groupname]`
-
-For example:
-
-` $ 1531 submit iteration1 W11A_EGGS`
-
-Only one person per group needs to run this command. This will submit a copy of your latest git commit to our systems for automarking. 
-
-NOTE: Our automarking will be run on your master branch at the time of submission, the `1531 submit` command is for record-keeping purposes only.
-
-Your tutor will also request you pull up this copy when marking you in the demonstration.
-
-If the deadline is approaching and you have features that are either untested or failing their tests, **DO NOT MERGE IN THOSE MERGE REQUESTS**. In some cases, your tutor will look at unmerged branches and may allocate some reduced marks for incomplete functionality, but `master` should only contain working code.
-
-Minor isolated fixes after the due date are allowed but carry a penalty to the automark, if the automark after re-running the autotests is greater than your initial automark. This penalty can be up to 30% of the automark for that iteration, depending on the number and nature of your fixes. Note that if the re-run automark after penalty is lower than your initial mark, we will keep your initial mark, meaning your automark cannot decrease after a re-run. E.g. imagine that your initial automark is 50%, on re-run you get a raw automark of 70%, and your fixes attract a 30% penalty: since the 30% penalty will reduce the mark of 70% to 49%, your final automark will still be 50% (i.e. your initial mark).
-
-If you want to have your automarking re-run:  
-* create a branch, e.g. `iter1-fix`, based off the submission commit  
-* make the minimal number of necessary changes (i.e. only fix the trivial bugs that cost you many automarks)  
-* push the changes to GitLab  
-* share the name of the branch with your tutor
-
-### 7.2. Demonstration
-The demonstrations in weeks 5 and 8 will take place during your lab sessions. All team members **must** attend these lab sessions. Team members who do not attend a demonstration may receive a mark of 0 for that iteration. If you are unable to attend a demonstration due to circumstances beyond your control, you must apply for special consideration.
-
-Demonstrations consist of a 15 minute Q&A in front of your tutor and potentially some other students in your tutorial. For online classes, webcams and audio are required to be on during this Q&A (your phone is a good alternative if your laptop/desktop doesn't have a webcam).
-
 ## 8. Individual Contribution
 While we do award a tentative mark to your group as a whole, your actual mark for each iteration is given to you individually. Your individual mark is determined by your tutor, with your group mark as a reference point. Your tutor will look at the following items each iteration to determine your mark:
  * Project check-in
@@ -1561,77 +1476,3 @@ In terms of other documentation (such as reports and other notes in later iterat
 
 Note that, **contributing more documentation is not a substitute for not contributing code**.
 
-### 8.5. Peer Assessment
-At the end of each iteration, there will be a peer assessment survey where you will rate and leave comments about each team member's contribution to the project up until that point. 
-
-Your other team members will **not** be able to see how you rated them or what comments you left in either peer assessment. If your team members give you a less than satisfactory rating, your contribution will be scrutinised and you may find your final mark scaled down.
-
-<table>
-  <tr>
-    <th>Iteration</th>
-    <th>Link</th>
-    <th>Opens</th>
-    <th>Closes</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=pM_2PxXn20i44Qhnufn7o_RvPhdrUs1DpZ0MlMs_Bf1UOFFIVDhFRk04SFpWVUE4WFBZUE5KS08xMi4u">Click here</a></td>
-    <td>10pm Friday 7th October</td>
-    <td>9am Monday 10th October</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=pM_2PxXn20i44Qhnufn7o_RvPhdrUs1DpZ0MlMs_Bf1UMkxUTU1STFg3NVk2OEFGRDFVSDBRRzI5Vy4u">Click here</a></td>
-    <td>10pm Friday 28th October</td>
-    <td>9am Monday 31st October</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=pM_2PxXn20i44Qhnufn7o_RvPhdrUs1DpZ0MlMs_Bf1UOUlaQklVN0I2TFNJUzBZMUpMOU1BSVlKVi4u">Click here</a></td>
-    <td>10pm Friday 18th November</td>
-    <td>9am Monday 21st November</td>
-  </tr>
-</table>
-
-### 8.6. Managing Issues
-
-When a group member does not contribute equally, we are aware it can implicitly have an impact on your own mark by pulling the group mark down (e.g. through not finishing a critical feature), etc.
-
-The first step of any disagreement or issue is always to talk to your team member(s) on the chats in MS Teams. Make sure you have:
-1. Been clear about the issue you feel exists
-2. Been clear about what you feel needs to happen and in what time frame to feel the issue is resolved
-3. Gotten clarity that your team member(s) want to make the change.
-
-If you don't feel that the issue is being resolved quickly, you should escalate the issue by talking to your tutor with your group in a project check-in, or alternatively by emailing your tutor privately outlining your issue.
-
-It's imperative that issues are raised to your tutor ASAP, as we are limited in the mark adjustments we can do when issues are raised too late (e.g. we're limited with what we can do if you email your tutor with iteration 2 issues after iteration 2 is due).
-
-## 9. Automarking & Leaderboard
-### 9.1. Automarking
-
-Each iteration consists of an automarking component. The particular formula used to calculate this mark is specific to the iteration (and detailed above).
-
-When running your code or tests as part of the automarking, we place a 2.5 minute timer on the running of your group's tests. This is more than enough time to complete everything unless you're doing something very wrong or silly with your code. As long as your tests take under 2.5 minutes to run on the pipeline, you don't have to worry about it potentially taking longer when we run automarking.
-
-### 9.2. Leaderboard
-In the days preceding iterations 1, 2, and 3's due date, we will be running your code against the actual automarkers (the same ones that determine your final mark) and publishing the results of every group on a leaderboard. [The leaderboard will be available here once released](http://cgi.cse.unsw.edu.au/~cs1531/22T3/leaderboard).
-
-You must have the code you wish to be tested in master by **9am** on the day of leaderboard runs.  
-
-The leaderboard will be run on Monday, Wednesday, and Friday afternoons during the week that the iteration is due.
-
-Your position and mark on the leaderboard will be referenced against an alias for your group (for privacy). This alias will be emailed to your group in week 3. You are welcome to share your alias with others if you choose! (Up to you.)
-
-The leaderboard gives you a chance to sanity check your automark (without knowing the details of what you did right and wrong), and is just a bit of fun.
-
-If the leaderboard isn't updating for you, try hard-refreshing your browser (Ctrl+R or Command+R), clearing your cache, or opening it in a private window. Also note the HTTP (not HTTPS) in the URL, as the site is only accessible via HTTP.
-
-## 10. Plagiarism
-
-The work you and your group submit must be your own work. Submission of work partially or completely derived from any other person or jointly written with any other person is not permitted. The penalties for such an offence may include negative marks, automatic failure of the course and possibly other academic discipline. Assignment submissions will be examined both automatically and manually for such submissions.
-
-Relevant scholarship authorities will be informed if students holding scholarships are involved in an incident of plagiarism or other misconduct.
-
-Do not provide or show your project work to any other person, except for your group and the teaching staff of COMP1531. If you knowingly provide or show your assignment work to another person for any reason, and work derived from it is submitted, you may be penalized, even if the work was submitted without your knowledge or consent. This may apply even if your work is submitted by a third party unknown to you.
-
-Note: you will not be penalized if your work has the potential to be taken without your consent or knowledge.
