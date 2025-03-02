@@ -17,7 +17,7 @@ The aim of this project is to build a backend JavaScript server for UNSW Beans, 
 - Application of software engineering life cycle principles in modern iterative development practices.
 - Utilization of version control, continuous integration, and deployment tools for sustainable code integration.
 
-# Stages of Developmen
+# Stages of Development
 ## Iteration 0: Getting Started
 Setting up project environment and basic project structure.
 ## Iteration 1: Basic Functionality and Tests
